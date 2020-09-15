@@ -18,9 +18,9 @@
                 <a href="#">Logo</a>
             </div>
             <div class="menuNavegador">
-                <a href="#">Inicio</a>
-                <a href="">Blog</a>
-                <a href="">Contacto</a>
+                <a href="index.html" id="btn-inicio">Inicio</a>
+                <a href="blog.html" id="btn-blog">Blog</a>
+                <a href="contacto.html" id="btn-contacto">Contacto</a>
             </div>
         </nav>
         <div class="bg">
@@ -39,7 +39,7 @@
     </header>
 
     <section class="contenedor presentacion mar-tb-100">
-        <div class="introduccion">
+        <div class="introduccion" id="inicio">
             <h2>Presentación</h2>
             <p class="t-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur saepe debitis suscipit! Nisi, explicabo repudiandae! Reiciendis porro tempore perspiciatis minima natus ratione similique magni vel voluptas ea maiores ipsum cum nulla aliquid
                 quaerat rerum, quae sint! Reiciendis est suscipit laudantium consectetur dolorem similique impedit. Atque vero molestiae totam, aliquam accusantium cupiditate voluptates, esse tenetur blanditiis dolorem dolor, saepe voluptatum? Nulla cumque
@@ -73,41 +73,32 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi amet aut conseq uuntur architecto aliquid dolores.</p>
         </div>
 
-        <button class="btn">Ver más</button>
+        <a href="blog.html">
+            <button class="btn">Ver más</button>
+        </a>
+
     </section>
 
-    <div class="contenedor">
-        <form action="" class="formulario" id="formulario" name="formulario">
-            <div class="contenedor-inputs">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                <input type="email" name="correo" id="correo" placeholder="Correo">
 
-                <div class="texto">
-                    <textarea name="mensaje" placeholder="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                </div>
-
-                <ul class="error" id="error"></ul>
-
-                <input type="submit" class="btn" id="btn" value="Enviar">
-            </div>
-        </form>
-    </div>
 
     <footer class="footer">
         <div class="rrss">
             <a href="https://www.instagram.com/shoyojhinata/"><i class="ig fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/trokfitymcmb"><i class="fb fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/spectermagic1"><i class="tw fab fa-twitter"></i></a>
-            <a href="%"><i class="gh fab fa-github"></i></a>
+            <a href="https://github.com/spectermagicc"><i class="gh fab fa-github"></i></a>
         </div>
         <div class="cp">
             <p>Todos los derechos reservados por Matías Rojas Rojas, 2020</p>
         </div>
     </footer>
 
+    <script src="JS/jquery.min.js"></script>
     <script src="JS/main.js"></script>
     <script src="JS/particles.min.js"></script>
     <script src="JS/main0.js"></script>
+
+    <script src="JS/scrolls.js"></script>
 
 </body>
 

@@ -1,0 +1,29 @@
+.formulario {
+    padding-top: 10%;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-family: 'Open Sans';
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}

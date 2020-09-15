@@ -1,0 +1,67 @@
+.contenedor {
+    width: 90%;
+}
+
+.items {
+    padding-top: 10%;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 32%;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.item:hover {
+    background-color: #f2f2f2;
+}
+
+.item .izquierda {
+    width: 40%;
+    display: block;
+    margin: auto 0;
+}
+
+.item .derecha {
+    width: 60%;
+}
+
+.item .derecha h3 {
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+
+.item .derecha h3::after {
+    content: '';
+    width: auto;
+    height: 2px;
+    background-color: rgb(255, 247, 0);
+    display: block;
+}
+
+.item .derecha p {
+    font-weight: 400;
+    text-align: left;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 450px) {
+    .items {
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .item {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .item {
+        width: 100%;
+    }
+}
