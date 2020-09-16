@@ -204,9 +204,11 @@ video {
 .items a {
     display: block;
     margin: 20px auto;
+    width: 15%;
 }
 
 .items a .btn {
+    width: 100%;
     cursor: pointer;
     padding: 10px 20px;
     border-radius: 5px;
@@ -413,8 +415,11 @@ a .gh:hover {
     .item {
         width: 48%;
     }
-    .btn {
-        width: 30%;
+    .items a {
+        width: 50%;
+    }
+    .items a .btn {
+        width: 100%;
     }
 }
 
