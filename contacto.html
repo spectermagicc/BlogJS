@@ -30,15 +30,15 @@
 
 
     <div id="contacto" class="contenedor">
-        <form action="" class="formulario" id="formulario" name="formulario">
+        <form action="envio.php" method="post" class="formulario" id="formulario" name="formulario">
             <h2>Contacto</h2>
 
             <div class="contenedor-inputs">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                <input type="email" name="correo" id="correo" placeholder="Correo">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                <input type="email" name="correo" id="correo" placeholder="Correo" required>
 
                 <div class="texto">
-                    <textarea name="mensaje" placeholder="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <textarea name="mensaje" placeholder="Mensaje" id="mensaje" cols="30" rows="10" required></textarea>
                 </div>
 
                 <ul class="error" id="error"></ul>
